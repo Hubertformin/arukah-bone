@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_banner_home_banners",
+  "info": {
+    "name": "home_banner",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "action_text": {
+      "type": "string"
+    },
+    "subaction": {
+      "type": "string"
+    }
+  }
+}
