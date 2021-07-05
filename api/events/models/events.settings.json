@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Events",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "CoverPhoto": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "StartDate": {
+      "type": "datetime"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "EndDate": {
+      "type": "date"
+    }
+  }
+}
