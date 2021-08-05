@@ -2,19 +2,39 @@
   "kind": "singleType",
   "collectionName": "home_pages",
   "info": {
-    "name": "Home page"
+    "name": "Home page",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "home_banner": {
       "type": "component",
       "repeatable": false,
-      "component": "banner.home-banner"
+      "component": "banner.home-banner",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "about_section": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "page-section.about-section"
     }
   }
 }

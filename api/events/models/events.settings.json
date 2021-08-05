@@ -38,6 +38,11 @@
     },
     "EndDate": {
       "type": "date"
+    },
+    "volunteers": {
+      "via": "events",
+      "collection": "volunteers",
+      "dominant": true
     }
   }
 }

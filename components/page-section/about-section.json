@@ -1,20 +1,16 @@
 {
-  "collectionName": "components_banner_home_banners",
+  "collectionName": "components_page_section_about_sections",
   "info": {
-    "name": "home_banner",
-    "icon": "archway",
-    "description": ""
+    "name": "About section",
+    "icon": "align-justify"
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "description": {
+    "about_arukah": {
       "type": "text"
     },
-    "banner_image": {
-      "collection": "file",
+    "about_image": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",

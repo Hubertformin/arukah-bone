@@ -12,10 +12,10 @@
 
 module.exports = {
   /**
-   * Simple example.
-   * Every monday at 1am.
+   * Runs everyday at 1am.
    */
-  // '0 1 * * 1': () => {
-  //
-  // }
+  '0 1 * * *': () => {
+    // run events cleaner every 1am
+    strapi.config.functions.eventCleaner();
+  }
 };
