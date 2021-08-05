@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_section_about_sections",
+  "info": {
+    "name": "About section",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "about_arukah": {
+      "type": "text"
+    },
+    "about_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

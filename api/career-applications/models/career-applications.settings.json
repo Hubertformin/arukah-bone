@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "career_applications",
+  "info": {
+    "name": "Career Applications"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "PhoneNumber": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Age": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    }
+  }
+}

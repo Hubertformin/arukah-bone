@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/carreer-openings",
+      "handler": "carreer-openings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/carreer-openings/count",
+      "handler": "carreer-openings.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/carreer-openings/:id",
+      "handler": "carreer-openings.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/carreer-openings",
+      "handler": "carreer-openings.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/carreer-openings/:id",
+      "handler": "carreer-openings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/carreer-openings/:id",
+      "handler": "carreer-openings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
