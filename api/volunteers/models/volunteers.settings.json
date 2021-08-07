@@ -13,13 +13,18 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "unique": false,
+      "required": true
     },
     "email": {
-      "type": "string"
+      "type": "string",
+      "required": false,
+      "unique": true
     },
     "phoneNumber": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "address": {
       "type": "string"
